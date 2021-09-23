@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Your
+    <script>
+       let myVar;
+       myVar = String(34); 
+       console.log(myVar , (typeof myVar));
+
+       let boolenVar = String(true);
+       console.log(boolenVar , (typeof boolenVar));
+
+       let date = String(new Date());
+       console.log(date , (typeof date));
+
+       let arr = String([1,2,3,4,5]);
+       console.log(arr.length , (typeof arr));
+
+       let i =75;
+       console.log(i.toString());
+
+       let stri = Number("3434");
+       stri = Number("354d4");
+       console.log(stri,(typeof stri));
+        let strin = Number(false);
+       console.log(strin,(typeof strin));
+
+       let str = Number([1,2,3,4,5]);
+       console.log(str,(typeof str));
+
+       let number = parseInt("34.12");
+       console.log(number,(typeof number));
+
+       let numbe = parseFloat("34.12");
+       console.log(numbe,(typeof numbe));
+
+       let num = parseFloat("34.12");
+       console.log(num.toFixed(8),(typeof num));
+
+
+       //Type coercion
+
+       let mystr = "698";
+       let mynum = 34;
+       console.log(mystr + mynum);
+
+    </script>
+</body>
+</html>

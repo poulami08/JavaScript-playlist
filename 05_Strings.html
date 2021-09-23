@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    josh
+    <script>
+        const name = 'harry';
+        const greeting = "good morning";
+        console.log(greeting + ' '+name);
+
+        let html;
+        html = "<h1> this is heading </h1>" +
+        "<p> this is my para </p>";
+
+        html =html.concat("this"," str2");
+        console.log(html);
+        console.log(html.length);
+        console.log(html.toUpperCase());
+        console.log(html);
+        console.log(html.toLowerCase());
+
+        console.log(html[5]);
+        console.log(html.charAt(3));
+        
+        console.log(html.indexOf("this"));
+        console.log(html.indexOf("thisn"));
+        console.log(html.lastIndexOf("this"));
+
+        console.log(html.endsWith("this"));
+        console.log(html.includes("this"));
+        console.log(html.substring(1,3));
+        console.log(html.substring(-4));
+        console.log(html.slice(0,4));
+        console.log(html.slice(-10));
+
+        console.log(html.split(" "));
+        console.log(html.split(">"));
+
+        console.log(html.replace("this","it"));
+
+        let fruit1 ='orange\'';
+        let fruit2 = "apple";
+        let myHtml = `hello ${name}
+        <h1> this is heading </h1>
+        <p> you like" ${fruit1} and ${fruit2}
+        `;
+        document.body.innerHTML = myHtml;
+
+
+
+
+        
+    </script>
+</body>
+</html>
