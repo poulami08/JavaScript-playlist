@@ -9,7 +9,58 @@
 <body>
     hello
     <script>
+        let marks =[34,23,24,93,73,25];
+        const fruits =['orange','apple','pineapple'];
+        const mixed =['str', 74,95,[7,2]];
+        const arr = new Array(23,125,'orange');
+        console.log(arr);
+        console.log(mixed);
+        console.log(fruits[1]);
+        console.log(arr.length);
+        console.log(Array.isArray(arr));
+        console.log(Array.isArray("array"));
+        arr[0] = 'harry';
+        console.log(arr);
         
+        let arrelement = arr[0];
+        console.log('element :', arrelement);
+
+        let value = marks.indexOf(72);
+        console.log(value);
+
+        //mutating or modifying arrays
+
+        marks.push(254);
+        console.log(marks);
+        marks.unshift(100);
+        console.log(marks);
+        marks.pop();
+        console.log(marks);
+        marks.shift();
+        console.log(marks);
+        marks.splice(2,3);
+        console.log(marks);
+        marks.reverse();
+        console.log(marks);
+
+        let marks2 = [1,2,3,7];
+        marks =marks.concat(marks2);
+        console.log(marks);
+
+
+
+        let myobj = {
+            name: 'harry',
+            channel: 'codewith',
+            isActive: true,
+            marks:[1,2,3,5],
+            'first n':'nooo'
+        }
+        console.log(myobj);
+        console.log(myobj.marks);
+        console.log(myobj['first n']);
+        console.log(myobj['marks']);
+
     </script>
 </body>
 </html>

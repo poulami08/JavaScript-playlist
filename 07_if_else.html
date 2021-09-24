@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    ok
+    <script>
+        //== only checks value and === check type and value both
+        const age = 18;
+        if(age==19){
+            console.log('age is 19');
+        }
+        else if(age ==56){
+            console.log('age is 56');
+        }
+        else{
+            console.log('age is not  19 or 56');
+        }
+
+        const agee = '19';
+        if(agee=== 19){
+            console.log('age is 19');
+        }
+        else if(agee === 56){
+            console.log('age is 56');
+        }
+        else{
+            console.log('age is not  19 or 56');
+        }
+        
+        //if u want to check a variable exist or not
+        const val =5;
+        if(typeof val !='undefined'){
+            console.log("val is defined");
+        }
+        else{
+            console.log("val is not defined");
+        }
+
+        const doseDrive = false;
+        if(doseDrive){
+            console.log("you can drive");
+        }
+        else{
+            console.log("you cannot drive");
+        }
+
+        console.log(age==45? 'age is 45': 'age is not 45');
+
+        switch (age) {
+            case 18:
+                console.log("you are 18");
+                break;
+                case 28:
+                console.log("you are 28");
+                break;
+                case 38:
+                console.log("you are 38");
+                break;
+        
+            default:
+                console.log("you are idk");
+                break;
+        }
+    </script>
+</body>
+</html>
