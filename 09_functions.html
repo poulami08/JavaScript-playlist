@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    goooo
+    <script>
+       const mygreet=function(name,thank='Thank you') {
+           
+        let msg=`“Success is the fruit of good ideas pursued with energy, intelligence, and determination.” No wonder you’re doing so well! Congratulations, ${name}!${thank}`;
+        return msg;
+       }
+       let name ="harsh";
+       let val =mygreet(name,'thanks a lot');
+       console.log(val);
+
+
+       const myobj ={
+           name:"silk",
+           game: function() {
+               return "GTA"
+               
+           }
+       }
+       console.log(myobj.game())
+
+
+       let arr =[2,5,4,7,9];
+       arr.forEach(function(element,index){
+            console.log(element,index);
+        });
+        
+        
+        let i=14
+        function ui(name)
+        {
+            let i=9;
+            console.log(i);
+            return `this is a ${name} ui`;
+        }
+        console.log(ui("harry"),i)
+
+    </script>
+</body>
+</html>
